@@ -1,0 +1,53 @@
+--- encode ---
+Sp1r4l h3l1x
+C140 4d10s 4D13U
+142b3c456
+Gr33t1ngs, k1ds!
+T1m3 t0 l34rn 4b0ut w34th3r
+None
+--- has_same_encoding ---
+False
+None
+True
+None
+False
+True
+--- count_daynight_pairs ---
+2
+4
+None
+0
+3
+--- classify_temperatures ---
+2 days were colder than 20, 1 days were hotter than 45, and 4 days were normal.
+3 days were colder than 20, 0 days were hotter than 45, and 0 days were normal.
+Warning: 33 is greater than 32.
+1 days were colder than 18, 5 days were hotter than 18, and 1 days were normal.
+0 days were colder than 10, 0 days were hotter than 25, and 4 days were normal.
+--- filter_junk ---
+[20, 23, 24, 20]
+[40, 40, 4, 40, 40]
+[]
+[3, 4, 5]
+--- find_biggest_chill ---
+2
+10
+8
+None
+None
+None
+5
+99
+100
+--- find_biggest_chill_ignoring_junk ---
+2
+99
+None
+3
+--- longest_heatwave ---
+2
+0
+2
+1
+1
+3
